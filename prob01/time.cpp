@@ -21,7 +21,7 @@ std::string mil_to_reg(unsigned short int mil_time){
         return civilian_hours + ":" + civilian_minutes + " am";
     }
 
-  } else if (hour > 12) {
+  } else if (hour > 12) {git add main.cpp
     hour = hour - 12;
     civilian_minutes = std::to_string(min);
     civilian_hours = std::to_string(hour);
