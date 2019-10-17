@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include "header.hpp"
 
 int main() {
   std::string text;
@@ -7,6 +9,7 @@ int main() {
 
   if (within_width(text, 80)) {
     // call the display_header function and pass in the text
+    display_header(text);
     // inputted by the user
   } else {
     std::cout << text;
